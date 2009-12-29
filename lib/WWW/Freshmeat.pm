@@ -14,7 +14,7 @@ Version 0.20
 
 =cut
 
-our $VERSION = '0.20';
+our $VERSION = '0.21';
 
 use XML::Simple qw();
 use WWW::Freshmeat::Project;
@@ -143,7 +143,7 @@ sub redir_url {
           local $URI::ABS_ALLOW_RELATIVE_SCHEME = 1;
           my $base = $response->base;
           $referral_uri = $HTTP::URI_CLASS->new($referral_uri, $base)
-                      ->abs($base);
+                      ->abs($base)->as_string;
       }
       return $referral_uri;
     } else {

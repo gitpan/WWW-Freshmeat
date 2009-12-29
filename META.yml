@@ -1,6 +1,6 @@
 ---
 name: WWW-Freshmeat
-version: 0.20
+version: 0.21
 author:
   - 'Alexandr Ciornii <alexchorny@gmail.com>'
 abstract: automates usage of Freshmeat.net
@@ -21,15 +21,16 @@ build_requires:
 provides:
   WWW::Freshmeat:
     file: lib/WWW/Freshmeat.pm
-    version: 0.20
+    version: 0.21
   WWW::Freshmeat::Project:
     file: lib/WWW/Freshmeat/Project.pm
-    version: 0.01
+    version: 0.21
   WWW::Freshmeat::Project::URL:
     file: lib/WWW/Freshmeat/Project/URL.pm
+    version: 0.21
   WWW::Freshmeat::User:
     file: lib/WWW/Freshmeat/User.pm
-    version: 0.01
+    version: 0.21
 generated_by: Module::Build version 0.33
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html

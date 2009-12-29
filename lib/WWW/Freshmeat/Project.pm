@@ -7,7 +7,7 @@ use WWW::Freshmeat::Project::URL;
 use Carp;
 
 
-our $VERSION = '0.01';
+our $VERSION = '0.21';
 
 sub new {
     my $proto = shift;
@@ -62,7 +62,7 @@ sub tags {
 }
 
 sub trove_id { 
-  croak "removed";
+  croak "method was removed";
   #$_[0]{descriminators}{trove_id}
 }
 
