@@ -1,5 +1,9 @@
 Revision history for WWW-Freshmeat
 
+0.22    2012-02-28
+        - 'Mirror site' will map to 'url_mirror'
+        - Compatibility support for old urls that now redirect to freecode.com
+
 0.21    2009-12-29
         - redir_url will return string, not an URI object
 
